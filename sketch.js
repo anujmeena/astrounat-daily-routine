@@ -67,8 +67,8 @@ function draw() {
     astronaut.changeAnimation("eating");
     astronaut.x = 150;
     astronaut.y = 350;
-    astronaut.velocityX = 0.5;
-    astronaut.velocityY = 0.5;
+    astronaut.velocityX = 0;
+    astronaut.velocityY = 0;
   }
   
   if(keyDown("RIGHT_ARROW")){
